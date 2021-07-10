@@ -5,15 +5,15 @@
 This is my web development portfolio to highlight the coding projects I have worked on, my influence in the job market, and some other information about what makes me the great ME that I am!
 
 ## Table of Contents
-[Installation](link)
+[Installation](https://github.com/savbennett8/myportfolio-savannahb#installation)
 <br>
-[Usage](link)
+[Usage](https://github.com/savbennett8/myportfolio-savannahb#usage)
 <br>
-[License](link)
+[License](https://github.com/savbennett8/myportfolio-savannahb#license)
 <br>
-[Contributing](link)
+[Contributing](https://github.com/savbennett8/myportfolio-savannahb#contributing)
 <br>
-[Questions](link)
+[Questions](https://github.com/savbennett8/myportfolio-savannahb#questions)
 
 
 ### Installation
