@@ -8,8 +8,7 @@
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^6.2.0",
-    "nodemon": "^2.0.12"
+    "concurrently": "^6.2.0"
   },
   "scripts": {
     "start": "node server/server.js",
