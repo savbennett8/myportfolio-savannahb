@@ -10,8 +10,9 @@ function Portfolio(props) {
 
     return (
         <section>
+            <h1 id="portfolio">Projects Pertaining to My Progress:</h1>
             <card>
-                <h1>{ptflCard.title}</h1>
+                <h2>{ptflCard.title}</h2>
                 <div>
                     <img
                         src={photo}
