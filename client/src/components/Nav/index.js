@@ -1,6 +1,10 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
     return (
         <header>
             <h2>
@@ -9,16 +13,16 @@ function Nav() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#about">About Me</a>
+                        <a href="#about" onClick={() => setContactSelected(false)}>About Me</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
                     </li>
                     <li>
-                        <a href="/resume">Resume</a>
+                        <a href="/resume" onClick={() => setContactSelected(false)}>Resume</a>
                     </li>
                     <li>
-                        <span>Contact</span>
+                        <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                 </ul>
             </nav>
