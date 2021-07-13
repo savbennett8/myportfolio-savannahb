@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import bookSearch from "../../assets/portfolio/book-search.JPG";
 import placeholder from "../../assets/portfolio/placeholder.jpg";
+import PortfolioModal from '../PortfolioModal';
 
 function Portfolio(props) {
     const ptflCards = [
@@ -42,12 +43,21 @@ function Portfolio(props) {
         },
     ];
 
+    const [currentProject, setCurrentProject] = useState();
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const toggleModal = (project, i) => {
+        setCurrentProject({ ...project, index: i });
+        setIsModalOpen(true);
+    };
+
     return (
         <section>
+            {isModalOpen && <PortfolioModal currentProject={currentProject} />}
             <h1 id="portfolio">Projects Pertaining to My Progress:</h1>
-            {ptflCards.map(card => (
+            {ptflCards.map((card, i) => (
                 <card>
-                    <h2>{card.title}</h2>
+                    <h2 onClick={() => toggleModal(card, i)} key={card.title}>{card.title}</h2>
                     <div>
                         <img
                             src={card.image}
