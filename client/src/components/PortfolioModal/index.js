@@ -1,24 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Portfolio from '../Portfolio';
 
-function PortfolioModal({ ptflCards }) {
-    const { title, description, appLink, githubRepo } = ptflCards;
+function PortfolioModal({ onClose, currentProject }) {
+    const { title, description, appLink, githubRepo } = currentProject;
+
+    const [isModalOpen, setIsModalOpen] = useState(true);
+
+    const toggleModal = () => {
+        console.log('exit modal')
+    };
 
     return (
-        <div className="modalBackdrop">
-            <div className="modalContainer">
-                <button className="btn-nostyle">← Back</button>
-                <h3 className="modalTitle">{title}</h3>
-                <p>{description}</p>
-                <div>
-                    <a href={appLink}>
-                        <button>Deployed Application</button>
-                    </a>
-                    <a href={githubRepo}>
-                        <button>GitHub Repository</button>
-                    </a>
+        <>
+            <div className="modalBackdrop">
+                <div className="modalContainer">
+                    <a onClick={onClose} className="modalBtn">← Back</a>
+                    <h3 className="modalTitle">{title}</h3>
+                    <p>{description}</p>
+                    <div className="modalLinks">
+                        <a href={appLink} className="modalBtn">Deployed Application</a>
+                        <a href={githubRepo} className="modalBtn">GitHub Repository</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
