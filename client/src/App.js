@@ -15,7 +15,7 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
-      <main>
+      <main id="main">
         {!contactSelected ? (
           <>
             <About></About>
