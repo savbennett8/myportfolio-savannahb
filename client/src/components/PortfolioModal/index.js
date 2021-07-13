@@ -4,12 +4,6 @@ import Portfolio from '../Portfolio';
 function PortfolioModal({ onClose, currentProject }) {
     const { title, description, appLink, githubRepo } = currentProject;
 
-    const [isModalOpen, setIsModalOpen] = useState(true);
-
-    const toggleModal = () => {
-        console.log('exit modal')
-    };
-
     return (
         <>
             <div className="modalBackdrop">

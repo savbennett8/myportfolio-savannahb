@@ -21,10 +21,6 @@ function Nav(props) {
                     <a onClick={() => setContactSelected(true)}>Contact</a>
                 </li>
             </ul>
-            <ul class="icons">
-                <li><a href="#" class="icon brands fa-email"><span class="label">Email</span></a></li>
-                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-            </ul>
         </nav>
     );
 };

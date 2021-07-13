@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -20,9 +21,13 @@ function App() {
           <>
             <About></About>
             <Portfolio></Portfolio>
+            <Footer></Footer>
           </>
         ) : (
-          <ContactForm></ContactForm>
+          <>
+            <ContactForm></ContactForm>
+            <Footer></Footer>
+          </>
         )}
       </main>
     </div>
