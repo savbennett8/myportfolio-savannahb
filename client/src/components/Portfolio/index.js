@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import bookSearch from "../../assets/portfolio/book-search.JPG";
-import placeholder from "../../assets/portfolio/placeholder.jpg";
+import bookSearch from "../../assets/photos/portfolio/book-search.JPG";
+import placeholder from "../../assets//photos/portfolio/placeholder.jpg";
 import PortfolioModal from '../PortfolioModal';
 
 function Portfolio() {
