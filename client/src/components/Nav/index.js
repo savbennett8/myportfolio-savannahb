@@ -6,10 +6,8 @@ function Nav(props) {
         setContactSelected
     } = props;
     return (
-        <header>
-            <h2>
-                <a href="/" aria-label="homepage">Savannah</a>
-            </h2>
+        <nav id="nav">
+
             <nav>
                 <ul>
                     <li>
@@ -25,8 +23,12 @@ function Nav(props) {
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                 </ul>
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-email"><span class="label">Email</span></a></li>
+                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
             </nav>
-        </header>
+        </nav>
     );
 };
 
