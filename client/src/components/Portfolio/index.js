@@ -63,7 +63,7 @@ function Portfolio() {
             {isModalOpen && <PortfolioModal currentProject={currentProject} onClose={toggleModal} />}
             <section className="posts">
                 {ptflCards.map((card, i) => (
-                    <article>
+                    <article key={i}>
                         <header>
                             <h2>{card.title}</h2>
                         </header>

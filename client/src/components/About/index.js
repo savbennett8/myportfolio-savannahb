@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
         <article className="post featured">
-            <header class="major">
+            <header className="major">
                 <span id="about" className="date">About Me:</span>
                 <p>I completed the Full-Stack Web Development boot camp with the University of Utah in July 2021. <br />
                     I have found a lot of enjoyment in learning to code and want this to be a skill I turn into my career. <br />

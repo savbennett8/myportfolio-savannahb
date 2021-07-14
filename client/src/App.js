@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
   return (
-    <div id="wrapper" class="fade-in">
+    <div id="wrapper" className="fade-in">
       <Intro></Intro>
       <Nav
         contactSelected={contactSelected}
