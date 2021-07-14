@@ -32,11 +32,12 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
+        window.alert('Your message has been sent!');
+        window.location.replace('/');
     };
 
     return (
-        <section>
+        <section id="contact">
             <h1>Contact Info</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
@@ -51,6 +52,12 @@ function ContactForm() {
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+                <button type="submit">Submit</button>
             </form>
         </section>
     );
