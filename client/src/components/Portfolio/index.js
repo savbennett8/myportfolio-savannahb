@@ -74,7 +74,7 @@ function Portfolio() {
                             />
                         </div>
                         <ul className="actions special">
-                            <li><a onClick={() => toggleModal(card, i)} key={card.title} className="button">More</a></li>
+                            <li><a onClick={() => toggleModal(card, i)} key={card.title} className="button" href="#more">More</a></li>
                         </ul>
                     </article>
                 ))}

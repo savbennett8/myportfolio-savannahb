@@ -2,7 +2,6 @@ import React from 'react';
 
 function Nav(props) {
     const {
-        contactSelected,
         setContactSelected
     } = props;
     return (
@@ -18,7 +17,7 @@ function Nav(props) {
                     <a href="/resume" onClick={() => setContactSelected(false)}>Resume</a>
                 </li>
                 <li>
-                    <a onClick={() => setContactSelected(true)}>Contact</a>
+                    <a href="#contact" onClick={() => setContactSelected(true)}>Contact</a>
                 </li>
             </ul>
         </nav>

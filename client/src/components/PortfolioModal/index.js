@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Portfolio from '../Portfolio';
+import React from 'react';
 
 function PortfolioModal({ onClose, currentProject }) {
     const { title, description, appLink, githubRepo } = currentProject;
@@ -8,7 +7,7 @@ function PortfolioModal({ onClose, currentProject }) {
         <>
             <div className="modalBackdrop">
                 <div className="modalContainer">
-                    <a onClick={onClose} className="modalBtn">← Back</a>
+                    <a onClick={onClose} className="modalBtn" href="#back">← Back</a>
                     <h3 className="modalTitle">{title}</h3>
                     <p>{description}</p>
                     <div className="modalLinks">
