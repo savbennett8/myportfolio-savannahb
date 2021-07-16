@@ -17,10 +17,11 @@ This is my web development portfolio to highlight the coding projects I have wor
 
 
 ### Installation
-
+This project uses the following libraries:
 
 ### Usage
 Click [here](https://savbennett8.github.io/myportfolio-savannahb/) to take a look at my portfolio!
+<img src="screenshot.JPG"/>
 
 ### License
 This project is licensed under the terms of the MIT license. Click [here](https://opensource.org/licenses/MIT) to view information about this license.
