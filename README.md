@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# My Portfolio
+# React Portfolio
 
 ## Description
 This is my web development portfolio to highlight the coding projects I have worked on, my influence in the job market, and some other information about what makes me the great ME that I am!
@@ -20,7 +20,7 @@ This is my web development portfolio to highlight the coding projects I have wor
 
 
 ### Usage
-Click [here](link) to take a look at my portfolio!
+Click [here](https://savbennett8.github.io/myportfolio-savannahb/) to take a look at my portfolio!
 
 ### License
 This project is licensed under the terms of the MIT license. Click [here](https://opensource.org/licenses/MIT) to view information about this license.
