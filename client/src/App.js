@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <div id="wrapper" className="fade-in">
       <Intro></Intro>
@@ -19,17 +20,14 @@ function App() {
       <main id="main">
         {!contactSelected ? (
           <>
-            <About></About>
-            <Portfolio></Portfolio>
-            <Footer></Footer>
+            <About />
+            <Portfolio />
           </>
         ) : (
-          <>
-            <ContactForm></ContactForm>
-            <Footer></Footer>
-          </>
+          <ContactForm />
         )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }

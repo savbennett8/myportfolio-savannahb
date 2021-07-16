@@ -32,8 +32,8 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        window.alert('Your message has been sent!');
-        window.location.replace('/');
+        window.alert("I'm so sorry, this form is under construction. Your message did not send. Please reach out via the email link at the bottom of the page.");
+        // window.location.reload();
     };
 
     return (
