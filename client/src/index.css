@@ -4008,9 +4008,16 @@ input, select, textarea {
 	padding: 15px;
 	width: 960px;
 }
+	.modalContainer > p {
+		margin-top: 4rem;
+	}
 
 .modalTitle, .modalBtn {
   color: white;
+}
+
+.modalText {
+	text-align: center;
 }
 
 .modalBtn {
@@ -4417,9 +4424,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#footer {
+			/* #footer {
 				display: block;
-			}
+			} */
 
 				#footer > section {
 					border-top: solid 2px #e2e2e2;
