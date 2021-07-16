@@ -14,7 +14,7 @@
   "scripts": {
     "start": "cd client && npm start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "npm i && cd client && npm i",
+    "install": "cd client && npm i",
     "build": "cd client && npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -28,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/savbennett8/myportfolio-savannahb/issues"
   },
-  "homepage": "https://savbennett8.github.io/myportfolio-savannahb/"
+  "homepage": "http://savbennett8.github.io/myportfolio-savannahb"
 }
