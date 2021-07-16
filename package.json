@@ -2,7 +2,7 @@
   "name": "myportfolio-savannahb",
   "version": "1.0.0",
   "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) # My Portfolio",
-  "homepage": "http://savbennett8.github.io/myportfolio-savannahb",
+  "homepage": "https://savbennett8.github.io/myportfolio-savannahb",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
