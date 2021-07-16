@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4983abad.chunk.css",
+    "main.js": "/static/js/main.80b6b609.chunk.js",
+    "main.js.map": "/static/js/main.80b6b609.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f9428d1a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f9428d1a.js.map",
+    "static/js/2.78bab32d.chunk.js": "/static/js/2.78bab32d.chunk.js",
+    "static/js/2.78bab32d.chunk.js.map": "/static/js/2.78bab32d.chunk.js.map",
+    "static/js/3.f5ec8552.chunk.js": "/static/js/3.f5ec8552.chunk.js",
+    "static/js/3.f5ec8552.chunk.js.map": "/static/js/3.f5ec8552.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4983abad.chunk.css.map": "/static/css/main.4983abad.chunk.css.map",
+    "static/js/2.78bab32d.chunk.js.LICENSE.txt": "/static/js/2.78bab32d.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/static/media/Resume.2f3bbdec.pdf",
+    "static/media/book-search.5c0ef901.JPG": "/static/media/book-search.5c0ef901.JPG",
+    "static/media/index.css": "/static/media/cover-image.885cb3cb.jpg",
+    "static/media/neon-jungle.e2734630.jpg": "/static/media/neon-jungle.e2734630.jpg",
+    "static/media/snek-game.49dfe4f9.jpg": "/static/media/snek-game.49dfe4f9.jpg",
+    "static/media/social-network-api.b2b18257.jpg": "/static/media/social-network-api.b2b18257.jpg",
+    "static/media/tech-blog.e997f56c.JPG": "/static/media/tech-blog.e997f56c.JPG",
+    "static/media/work-scheduler.7fd9f130.jpg": "/static/media/work-scheduler.7fd9f130.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9428d1a.js",
+    "static/js/2.78bab32d.chunk.js",
+    "static/css/main.4983abad.chunk.css",
+    "static/js/main.80b6b609.chunk.js"
+  ]
+}
