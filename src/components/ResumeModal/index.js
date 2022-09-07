@@ -5,7 +5,7 @@ function ResumeModal({ onClose }) {
         <>
             <div className="modalBackdrop resume">
                 <div className="modalContainer">
-                    <a onClick={onClose} className="modalBtn" href="/">← Back</a>
+                    <a onClick={onClose} className="modalBtn" href="#header">← Back</a>
                     <h2 className="modalTitle">Resume</h2>
                     <div className="modalLinks">
                         <a href={require('../../assets/resume/Resume.pdf').default} className="modalBtn" target="_blank">Download Resume</a>
