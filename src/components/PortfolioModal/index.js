@@ -7,7 +7,7 @@ function PortfolioModal({ onClose, currentProject }) {
         <>
             <div className="modalBackdrop" id="projectDetails">
                 <div className="modalContainer">
-                    <a onClick={onClose} className="modalBtn" href="#portfolio">← Back</a>
+                    <a onClick={onClose} className="modalBtn" href="#back">← Back</a>
                     <h3 className="modalTitle">{title}</h3>
                     <p>{description}</p>
                     <div className="modalLinks">
