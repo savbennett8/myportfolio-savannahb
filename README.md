@@ -18,9 +18,11 @@ This is my web development portfolio to highlight the coding projects I have wor
 
 ### Installation
 This project uses the following libraries:
+* React
+* Github Pages
 
 ### Usage
-Click [here](https://savbennett8.github.io/myportfolio-savannahb/) to take a look at my portfolio!
+Click [here](https://savbennett8.github.io/myportfolio-savannahb/) to take a look at my portfolio page!
 <img src="screenshot.JPG"/>
 
 ### License

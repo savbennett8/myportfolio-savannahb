@@ -3,9 +3,9 @@ import React from 'react';
 function ResumeModal({ onClose }) {
     return (
         <>
-            <div className="modalBackdrop resume">
+            <div className="modalBackdrop" id="resume">
                 <div className="modalContainer">
-                    <a onClick={onClose} className="modalBtn" href="/">← Back</a>
+                    <a onClick={onClose} className="modalBtn" href="#nav">← Back</a>
                     <h2 className="modalTitle">Resume</h2>
                     <div className="modalLinks">
                         <a href={require('../../assets/resume/Resume.pdf').default} className="modalBtn" target="_blank">Download Resume</a>

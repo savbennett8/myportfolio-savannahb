@@ -19,7 +19,7 @@ function Nav(props) {
             <nav id="nav">
                 <ul className="links">
                     <li>
-                        <a className="active" href="#header" onClick={() => { setContactSelected(false) }}>About Me</a>
+                        <a className="active" href="#nav" onClick={() => { setContactSelected(false) }}>About Me</a>
                     </li>
                     <li>
                         <a href="#portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
