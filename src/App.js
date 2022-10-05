@@ -11,9 +11,9 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
-    <div id="wrapper" className="fade-in">
+    <div id="wrapper main" className="fade-in">
       <Intro></Intro>
-      <Nav id="main"
+      <Nav 
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
