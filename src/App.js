@@ -6,9 +6,11 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import ResumePage from './components/Resume';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
     <div id="wrapper" className="fade-in">
@@ -16,16 +18,30 @@ function App() {
       <Nav 
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
       ></Nav>
       <main id="main">
-        {!contactSelected ? (
+        {/* {!contactSelected ? (
           <>
             <About />
             <Portfolio />
           </>
         ) : (
           <ContactForm />
-        )}
+        )} */}
+
+        if(!contactSelected && !resumeSelected) {
+          <>
+            <About />
+            <Portfolio />
+          </>
+        } else if (resumeSelected && !contactSelected) {
+          <ResumePage />
+        } else {
+          <ContactForm />
+        }
       </main>
       <Footer></Footer>
     </div>
