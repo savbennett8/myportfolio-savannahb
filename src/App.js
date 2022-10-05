@@ -13,7 +13,7 @@ function App() {
   return (
     <div id="wrapper" className="fade-in">
       <Intro></Intro>
-      <Nav
+      <Nav id="main"
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
