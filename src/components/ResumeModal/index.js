@@ -3,7 +3,7 @@ import React from 'react';
 function ResumeModal({ onClose }) {
     return (
         <>
-            <div className="modalBackdrop" id="resume">
+            <div className="modalBackdrop">
                 <div className="modalContainer">
                     <a onClick={onClose} className="modalBtn" href="#back">← Back</a>
                     <h3 className="modalTitle">Resume</h3>
