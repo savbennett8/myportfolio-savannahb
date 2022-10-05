@@ -25,7 +25,7 @@ function Nav(props) {
                         <a href="#portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
                     </li>
                     <li>
-                        <a href="#resume" id="main"
+                        <a href="#resume"
                             onClick={() => {
                                 setContactSelected(false)
                                 toggleResumeModal()
