@@ -23,15 +23,17 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Nav>
       <main id="main">
-        {/* {!contactSelected ? (
+        {!contactSelected && !resumeSelected ? (
           <>
             <About />
             <Portfolio />
           </>
-        ) : (
+        ) : resumeSelected ? (
+          <ResumePage />
+          ) : (
           <ContactForm />
-        )} */}
-      <div>
+        )}
+      {/* <div>
         if(!contactSelected && !resumeSelected) {
           <>
             <About />
@@ -42,7 +44,7 @@ function App() {
         } else {
           <ContactForm />
         }
-      </div>
+      </div> */}
         
       </main>
       <Footer></Footer>
