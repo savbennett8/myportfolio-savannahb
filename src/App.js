@@ -31,7 +31,7 @@ function App() {
         ) : (
           <ContactForm />
         )} */}
-
+      <div>
         if(!contactSelected && !resumeSelected) {
           <>
             <About />
@@ -42,6 +42,8 @@ function App() {
         } else {
           <ContactForm />
         }
+      </div>
+        
       </main>
       <Footer></Footer>
     </div>
