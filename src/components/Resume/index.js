@@ -6,10 +6,10 @@ function ResumePage() {
             <div>
                 <div>
                     <h1>Resume</h1>
-                    <button type="submit">
-                        <a href={require('../../assets/resume/Resume.pdf').default} className="modalBtn" target="_blank">Download Resume</a>
+                    <button type="button">
+                        <a href={require('../../assets/resume/Resume.pdf').default} className="button" target="_blank">Download Resume</a>
                     </button>
-                    <p>This page is under construction, though, you're still able to download my resume using the button above.</p>
+                    <p className="resumePage">This page is under construction, though, you're still able to download my resume using the button above.</p>
                 </div>
             </div>
         </>
