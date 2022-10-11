@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/myportfolio-savannahb/static/css/main.5051af6a.chunk.css",
-    "main.js": "/myportfolio-savannahb/static/js/main.d9bf0220.chunk.js",
-    "main.js.map": "/myportfolio-savannahb/static/js/main.d9bf0220.chunk.js.map",
+    "main.css": "/myportfolio-savannahb/static/css/main.ffadf661.chunk.css",
+    "main.js": "/myportfolio-savannahb/static/js/main.0fa9c41c.chunk.js",
+    "main.js.map": "/myportfolio-savannahb/static/js/main.0fa9c41c.chunk.js.map",
     "runtime-main.js": "/myportfolio-savannahb/static/js/runtime-main.e3f6d984.js",
     "runtime-main.js.map": "/myportfolio-savannahb/static/js/runtime-main.e3f6d984.js.map",
     "static/js/2.16d4dad1.chunk.js": "/myportfolio-savannahb/static/js/2.16d4dad1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6e6fa834.chunk.js": "/myportfolio-savannahb/static/js/3.6e6fa834.chunk.js",
     "static/js/3.6e6fa834.chunk.js.map": "/myportfolio-savannahb/static/js/3.6e6fa834.chunk.js.map",
     "index.html": "/myportfolio-savannahb/index.html",
-    "static/css/main.5051af6a.chunk.css.map": "/myportfolio-savannahb/static/css/main.5051af6a.chunk.css.map",
+    "static/css/main.ffadf661.chunk.css.map": "/myportfolio-savannahb/static/css/main.ffadf661.chunk.css.map",
     "static/js/2.16d4dad1.chunk.js.LICENSE.txt": "/myportfolio-savannahb/static/js/2.16d4dad1.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/myportfolio-savannahb/static/media/Resume.d5575cbf.pdf",
     "static/media/book-search.5c0ef901.JPG": "/myportfolio-savannahb/static/media/book-search.5c0ef901.JPG",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e3f6d984.js",
     "static/js/2.16d4dad1.chunk.js",
-    "static/css/main.5051af6a.chunk.css",
-    "static/js/main.d9bf0220.chunk.js"
+    "static/css/main.ffadf661.chunk.css",
+    "static/js/main.0fa9c41c.chunk.js"
   ]
 }
