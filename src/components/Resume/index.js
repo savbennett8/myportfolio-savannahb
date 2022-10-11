@@ -6,9 +6,9 @@ function ResumePage() {
             <div>
                 <div>
                     <h1>Resume</h1>
-                    <button type="button">
+                    <div className='modalLinks'>
                         <a href={require('../../assets/resume/Resume.pdf').default} className="button" target="_blank">Download Resume</a>
-                    </button>
+                    </div>
                     <p className="resumePage">This page is under construction, though, you're still able to download my resume using the button above.</p>
                 </div>
             </div>
