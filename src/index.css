@@ -182,8 +182,9 @@ input, select, textarea {
 	}
 
 	.resumePage {
-		padding: 4rem 4rem 2rem;
-		margin: 4rem 4rem 2rem;
+		padding: 2rem 4rem 7rem;
+		margin: 2rem 4rem 7rem;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
