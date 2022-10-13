@@ -16,7 +16,7 @@ function Nav(props) {
                         <a href="#portfolio" onClick={() => {{ setContactSelected(false)} {setResumeSelected(false)}}}>Portfolio</a>
                     </li>
                     <li>
-                        <a href="#resume" onClick={() => {{ setContactSelected(false)} {setResumeSelected(true)}}}>Resume</a>
+                        <a href="#nav" onClick={() => {{ setContactSelected(false)} {setResumeSelected(true)}}}>Resume</a>
                     </li>
                     <li>
                         <a href="#nav" onClick={() => {{ setContactSelected(true)} {setResumeSelected(false)}}}>Contact</a>
